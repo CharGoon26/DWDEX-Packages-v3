@@ -1,6 +1,6 @@
 # BallsDex v3 — Leaderboard Package
 
-A custom package for **BallsDex v3** that adds `/leaderboard` slash commands.
+A custom package for **BallsDex v3** that adds `/leaderboard` commands.
 
 ## Commands
 
@@ -14,10 +14,8 @@ All commands accept an optional `limit` argument (1–25, default 10).
 
 ## Installation
 
-### Development (editable)
-
-1. Place this folder in `extra/leaderboard_package`
-2. Add to `config/extra.toml`:
+1. Download the previous folder with https://download-directory.github.io/
+2. In the extra folder, add extra.toml file if not yet added. Paste this into the file:
 
 ```toml
 [[ballsdex.packages]]
