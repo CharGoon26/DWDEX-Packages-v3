@@ -14,8 +14,9 @@ All commands accept an optional `limit` argument (1–25, default 10).
 
 ## Installation
 
-1. Download the previous folder with https://download-directory.github.io/
-2. In the extra folder, add extra.toml file if not yet added. Paste this into the file:
+1. Copy link of this repo and download with https://download-directory.github.io/
+2. In the extra folder, add the package folder
+3. In config folder in home directory, if you already have extra.toml then good, if not make one and paste this
 
 ```toml
 [[ballsdex.packages]]
