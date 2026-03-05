@@ -14,6 +14,7 @@ All commands accept an optional `limit` argument (1–25, default 10).
 
 ## Installation
 
+# if you want to customize it...
 1. Copy link of this repo and download with https://download-directory.github.io/
 2. In the extra folder, add the package folder
 3. In config folder in home directory, if you already have extra.toml then good, if not make one and paste this
@@ -28,11 +29,12 @@ editable = true
 
 3. Rebuild with `docker compose build` (Docker) or `uv pip install -e extra/leaderboard_package` (non-Docker)
 
-### Production (from git)
+### If not customized...
+1. only add this on extra.toml
 
 ```toml
 [[ballsdex.packages]]
-location = "git+https://github.com/YOUR_USERNAME/leaderboard_package.git"
+location = "git+https://github.com/CharGooner26/leaderboard_package.git"
 path = "leaderboard_pkg"
 enabled = true
 ```
